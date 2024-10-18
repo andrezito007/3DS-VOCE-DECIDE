@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 440;
+}
+
+:root{
+    --celereiro-vermelho: rgb(48, 21, 59);
+    --tijolo-de-fogo: rgb(30, 31, 36);
+    --chicote-de-mamao: rgb(251, 251, 251);
+    --azul-da-prussia: rgb(147, 110, 167);
+    --superioridade-aerea-azul: rgb(60, 23, 72);
+    --fonte-titulo:  "Platypi", serif;
+    --fonte-texto: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-color: var(--superioridade-aerea-azul);
+    color: var(--chicote-de-mamao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal{
+    background-color: var(--azul-da-prussia);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--chicote-de-mamao);
+    font-family: var(--fonte-titulo);
+}
+
+button{
+    background-color: var(--chicote-de-mamao);
+    color: var(--azul-da-prussia);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover{
+    background-color: var(--celereiro-vermelho);
+}
